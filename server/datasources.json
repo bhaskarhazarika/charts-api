@@ -1,0 +1,13 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "localmongo": {
+    "url": "mongodb://localhost/tastytiffins",
+    "password": "",
+    "name": "localmongo",
+    "user": "",
+    "connector": "mongodb"
+  }
+}
