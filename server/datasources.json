@@ -4,7 +4,7 @@
     "connector": "memory"
   },
   "localmongo": {
-    "url": "mongodb://localhost/tastytiffins",
+    "url": "mongodb://localmongo/tastytiffins",
     "password": "",
     "name": "localmongo",
     "user": "",

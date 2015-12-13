@@ -7,11 +7,13 @@
     "validateUpsert": true
   },
   "properties": {
-    "start_date": {
-      "type": "date"
-    },
     "end_date": {
-      "type": "date"
+      "type": "date",
+      "required": true
+    },
+    "start_date": {
+      "type": "date",
+      "required": true
     }
   },
   "validations": [],
