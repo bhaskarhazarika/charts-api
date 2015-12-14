@@ -74,7 +74,7 @@ module.exports = function(Orders) {
     
 
     }
-    ,{ $sort: { createdAt: 1 }}
+    ,{ $sort: { _id: 1 }}
     ], 
     function(err,groupByRecords){
       //console.log("err",err);
